@@ -12,6 +12,7 @@
         <module>01-SpringBoot-Hello</module>
         <module>02-SpringBoot-Servlet</module>
         <module>03-SpringBoot-Filter</module>
+        <module>04-SpringBoot-Listener</module>
     </modules>
 
 

@@ -9,7 +9,7 @@ import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 
 /**
- * spring-boot HelloWorld
+ * spring-boot Spring-boot整合Filter方式二
  * Author mzz
  * Create Date 2019/3/20 0020
  **/

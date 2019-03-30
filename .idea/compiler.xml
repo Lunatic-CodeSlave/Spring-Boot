@@ -9,6 +9,7 @@
         <module name="01-SpringBoot-Hello" />
         <module name="02-SpringBoot-Servlet" />
         <module name="03-SpringBoot-Filter" />
+        <module name="04-SpringBoot-Listener" />
       </profile>
     </annotationProcessing>
   </component>
