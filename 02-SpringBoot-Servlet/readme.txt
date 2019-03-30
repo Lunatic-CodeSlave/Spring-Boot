@@ -16,3 +16,4 @@
     第二种方式
         不需要添加@ServletComponentScan和@WebServlet注解，
         在启动类里添加方法返回值必须是ServletRegistrationBean,并添加注解@Bean注解
+        
