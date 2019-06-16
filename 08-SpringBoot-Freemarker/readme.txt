@@ -1,0 +1,4 @@
+1.创建项目，在pom.xml文件里添加freemarker坐标
+2.编写视图层：spring-boot要求模板的视图层技术的文件必须放到src/main/resources/目录下必须有个名称叫templates的目录
+3.在templates目录下编写ftl文件
+4.创建controller和pojo
