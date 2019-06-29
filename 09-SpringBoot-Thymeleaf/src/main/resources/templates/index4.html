@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thymeleaf迭代遍历map</title>
+</head>
+<body>
+<table border="1" >
+    <tr>
+        <th>ID</th>
+        <th>NAME</th>
+        <th>AGE</th>
+    </tr>
+    <tr th:each="maps:${map}">
+        <td th:text="${maps}"></td>
+    </tr>
+</table>
+<hr/>
+<table border="1" >
+    <tr>
+        <th>ID</th>
+        <th>NAME</th>
+        <th>AGE</th>
+    </tr>
+    <tr th:each="maps:${map}">
+        <!--<td th:each="entry:${maps}" th:text="${entry.key}"></td>-->
+        <td th:each="entry:${maps}" th:text="${entry.value.userid}"></td>
+        <td th:each="entry:${maps}" th:text="${entry.value.username}"></td>
+        <td th:each="entry:${maps}" th:text="${entry.value.userage}"></td>
+    </tr>
+</table>
+</body>
+</html>

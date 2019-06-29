@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thymeleaf如何操作HttpServletRequest</title>
+</head>
+<body>
+  Request:<span th:text="${#httpServletRequest.getAttribute('request')}"></span><br>
+  Session:<span th:text="${session.session}"></span><br>
+  Application:<span th:text="${application.application}"></span>
+</body>
+</html>

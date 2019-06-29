@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thymeleaf集合迭代遍历操作</title>
+</head>
+<body>
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>NAME</th>
+        <th>AGE</th>
+        <th>INDEX</th>
+        <th>Count</th>
+        <th>Size</th>
+        <th>Even</th>
+        <th>Odd</th>
+        <th>First</th>
+        <th>last</th>
+    </tr>
+    <tr th:each="user,var:${list}">
+        <td th:text="${user.userid}"/>
+        <td th:text="${user.username}"/>
+        <td th:text="${user.userage}"/>
+        <td th:text="${var.index}"/>
+        <td th:text="${var.count}"/>
+        <td th:text="${var.size}"/>
+        <td th:text="${var.even}"/>
+        <td th:text="${var.odd}"/>
+        <td th:text="${var.first}"/>
+        <td th:text="${var.last}"/>
+
+    </tr>
+</table>
+</body>
+</html>

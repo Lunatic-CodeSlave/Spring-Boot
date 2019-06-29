@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Thymeleaf的URL</title>
+</head>
+<body>
+  <a th:href="@{http://www.baidu.com}">绝对路径</a>
+  <br>
+  <a href="http://www.baidu.com">111111</a>
+  <br>
+  <a th:href="@{/show1}">相对路径</a>
+  <br>
+  <a th:href="@{~/project/resourcename}">相对于当前服务器的根路径</a>
+  <br>
+  <a th:href="@{/show1(id=1,name='张三')}">相对路径-传参</a>
+  <br>
+  <a th:href="@{/psth/{id}/show1(id=1,name='张三')}">相对路径-restful传参</a>
+</body>
+</html>
