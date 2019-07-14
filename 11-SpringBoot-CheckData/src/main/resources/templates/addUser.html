@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>添加用户表单</title>
+</head>
+<body>
+    <form th:action="@{/saveUser}" method="post" style="width: 500px;">
+        用户姓名：<input type="text" name="name" /><font color="red" th:errors="${user.name}"></font><br>
+        用户密码：<input type="text" name="password" /><font color="red" th:errors="${user.password}"></font><br>
+        用户年龄：<input type="text" name="age" /><font color="red" th:errors="${user.age}"></font><br>
+        用户邮箱：<input type="text" name="email" /><font color="red" th:errors="${user.email}"></font><br>
+        <input type="submit" value="提交" />
+    </form>
+</body>
+</html>
