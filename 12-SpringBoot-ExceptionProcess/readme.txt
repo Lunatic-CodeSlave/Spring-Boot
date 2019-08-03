@@ -8,7 +8,7 @@
            在controller里某个方法上添加@ExceptionHandler注解，属性value可以定义一个多个异常class对象，处理异常返回一个视图
 
       1.3 @ControllerAdvice + @ExceptionHandler注解处理异常
-            创建一个处理全局异常类，在类上添加@ControllerAdvice注解
+            创建一个处理全局异常类，在类上添加@ControllerAdvice注解，具备跨Controller处理异常
 
       1.4 配置SimpleMappingExtionResolver类完成异常处理
             创建一个处理全局异常类，在类上添加@Configuration注解，创建一个带有@bean注解的方法，该方法返回类型必须是SimpleMappingExceptionResolver ，
