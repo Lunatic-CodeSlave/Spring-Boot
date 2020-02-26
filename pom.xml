@@ -14,6 +14,14 @@
         <module>03-SpringBoot-Filter</module>
         <module>04-SpringBoot-Listener</module>
         <module>05-SpringBoot-StaticResource</module>
+        <module>06-SpringBoot-FileUpload</module>
+        <module>07-SpringBoot-Jsp</module>
+        <module>08-SpringBoot-Freemarker</module>
+        <module>09-SpringBoot-Thymeleaf</module>
+        <module>10-SpringBoot-SpringMVC-Mybatis</module>
+        <module>11-SpringBoot-CheckData</module>
+        <module>12-SpringBoot-ExceptionProcess</module>
+        <module>13-SpringBoot-test</module>
     </modules>
 
 
