@@ -22,6 +22,8 @@
         <module>11-SpringBoot-CheckData</module>
         <module>12-SpringBoot-ExceptionProcess</module>
         <module>13-SpringBoot-test</module>
+        <module>14-SpringBoot-Scheduled</module>
+        <module>15-Quartz-Demo</module>
     </modules>
 
 
