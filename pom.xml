@@ -24,6 +24,7 @@
         <module>13-SpringBoot-test</module>
         <module>14-SpringBoot-Scheduled</module>
         <module>15-Quartz-Demo</module>
+        <module>16-SpringBoot-Quartz</module>
     </modules>
 
 
