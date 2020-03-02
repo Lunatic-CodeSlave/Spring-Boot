@@ -3,9 +3,9 @@ package com.mjh.mzz.job;
 import org.quartz.*;
 import org.springframework.stereotype.Component;
 
+@Component
 @PersistJobDataAfterExecution
 @DisallowConcurrentExecution
-@Component
 public class JobTwo implements BaseJob {
     public void execute(JobExecutionContext jobExecutionContext) throws JobExecutionException {
         JobDataMap data=jobExecutionContext.getTrigger().getJobDataMap();
